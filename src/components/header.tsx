@@ -9,6 +9,10 @@ const Header = () => {
                         <div className="flex items-center">
                             <img
                                 className="size-16"
+                                src="location-svgrepo-com.svg"
+                            />
+                            <img
+                                className="size-16"
                                 src="src/assets/location-svgrepo-com.svg"
                             />
                         </div>
