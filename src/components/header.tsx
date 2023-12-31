@@ -8,7 +8,7 @@ const Header = () => {
                     <div className="p-4 flex justify-between items-center w-full h-full">
                         <div className="flex items-center">
                             <img
-                                className="size-4 lg:size-16"
+                                className="size-8 lg:size-16"
                                 src="location-svgrepo-com.svg"
                             />
                         </div>
