@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 const UserOptions = () => {
     return (
         <>
-            <Button>Login/Register</Button>
+            <Button className="text-sm lg:text-base">Login/Register</Button>
         </>
     );
 };
