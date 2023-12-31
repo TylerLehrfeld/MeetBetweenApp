@@ -11,10 +11,6 @@ const Header = () => {
                                 className="size-16"
                                 src="location-svgrepo-com.svg"
                             />
-                            <img
-                                className="size-16"
-                                src="src/assets/location-svgrepo-com.svg"
-                            />
                         </div>
                         <div className="flex it ems-center">
                             <p className="font-extrabold text-5xl">
