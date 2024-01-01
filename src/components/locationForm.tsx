@@ -15,7 +15,7 @@ const LocationForm = () => {
                     <Input type="text" placeholder="location"/>
                 
             </div>
-            <div className="flex justify-center p-5">
+            <div className="flex justify-center p-5 bg-gray-900">
                 <Button>Find middle locations!</Button>
             </div>
         </>

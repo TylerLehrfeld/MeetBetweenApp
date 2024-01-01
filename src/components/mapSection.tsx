@@ -30,8 +30,8 @@ const MapSection = () => {
     initMap();
 
     return (
-        <div className="flex h-full justify-center bg-gray-900">
-            <div className="h-2/3 w-1/2">
+        <div className="flex h-5/6 justify-center bg-gray-900">
+            <div className="h-full w-5/6">
                 <div id="map" className="h-full"></div>
             </div>
         </div>
