@@ -24,6 +24,7 @@ const MapSection = () => {
             center: { lat: -34.397, lng: 150.644 },
             zoom: 8,
         });
+        map.setZoom(7);
     }
 
     initMap();
