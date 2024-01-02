@@ -1,4 +1,4 @@
-import { SetStateAction, useState } from "react";
+import { useState } from "react";
 import { Slider } from "./ui/slider";
 
 const SliderBox = ({ label }: { label: string }) => {
@@ -15,9 +15,9 @@ const SliderBox = ({ label }: { label: string }) => {
                         <div className="w-3/4 lg:w-1/2">
                             <Slider
                                 onValueChange={(
-                                    value: number,
+                                    val: number,
                                 ) => {
-                                    setProgress(value);
+                                    setProgress(val);
                                 }}
                             ></Slider>
                         </div>
