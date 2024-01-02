@@ -15,9 +15,9 @@ const SliderBox = ({ label }: { label: string }) => {
                         <div className="w-3/4 lg:w-1/2">
                             <Slider
                                 onValueChange={(
-                                    val: number,
+                                    value: number[],
                                 ) => {
-                                    setProgress(val);
+                                    setProgress(value[0]);
                                 }}
                             ></Slider>
                         </div>
