@@ -1,4 +1,5 @@
 import { Loader } from "@googlemaps/js-api-loader";
+import { locations } from "@/lib/data";
 
 const MapSection = () => {
     const loader = new Loader({
@@ -11,7 +12,7 @@ const MapSection = () => {
             "maps",
         )) as google.maps.MapsLibrary;
         map = new Map(document.getElementById("map") as HTMLElement, {
-            center: { lat: -34.397, lng: 150.644 },
+            center: { lat: locations[0].lat, lng: locations[0].lng },
             zoom: 8,
         });
     });

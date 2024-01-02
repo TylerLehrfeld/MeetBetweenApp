@@ -1,11 +1,11 @@
 import { Location } from "@/lib/data";
 
 type LocType = {
-    location: Location,
-}
+    location: Location;
+};
 
 const Result = (locType: LocType) => {
-    const { location } = locType;  
+    const { location } = locType;
     return (
         <div className="w-5/6 lg:w-1/2 bg-gray-300 p-5 border-zinc-500 border-4 rounded">
             <div>
