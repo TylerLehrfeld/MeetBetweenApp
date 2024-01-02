@@ -14,9 +14,7 @@ const SliderBox = ({ label }: { label: string }) => {
                     <div className="flex justify-center p-5">
                         <div className="w-3/4 lg:w-1/2">
                             <Slider
-                                onValueChange={(
-                                    value: number[],
-                                ) => {
+                                onValueChange={(value: number[]) => {
                                     setProgress(value[0]);
                                 }}
                             ></Slider>
